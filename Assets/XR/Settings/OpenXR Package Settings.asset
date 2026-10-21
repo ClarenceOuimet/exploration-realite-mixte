@@ -315,7 +315,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5019471fb2174e5c852ecd4047163007, type: 3}
   m_Name: HandInteractionProfile Android
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.Features.Interactions.HandInteractionProfile
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Hand Interaction Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.handinteraction
@@ -1104,51 +1104,51 @@ MonoBehaviour:
   m_Name: Standalone
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.OpenXRSettings
   features:
-  - {fileID: 543706932176413643}
-  - {fileID: -1583017290428695494}
-  - {fileID: 1273434015004532475}
-  - {fileID: -8198702064396466860}
-  - {fileID: 7362104248294959986}
-  - {fileID: 552804138449250412}
-  - {fileID: -2091598618844979419}
-  - {fileID: 5680852580795261754}
-  - {fileID: -157688096609304593}
-  - {fileID: -2418413496901846179}
-  - {fileID: 4043645911573991167}
-  - {fileID: -1289063034203152606}
-  - {fileID: 906408066242950741}
-  - {fileID: 7517605743856372396}
-  - {fileID: 4708585281749833538}
-  - {fileID: 2671707924758850474}
-  - {fileID: 473862009859142395}
-  - {fileID: 1090286274374400699}
-  - {fileID: -8216109001518154207}
-  - {fileID: -3108023629581508978}
-  - {fileID: -8742275686702897902}
+  - {fileID: -7509589973742156510}
   - {fileID: 9012587520138702746}
-  - {fileID: -8542971604843567817}
-  - {fileID: -6187803961940817801}
+  - {fileID: -157688096609304593}
+  - {fileID: 1273434015004532475}
+  - {fileID: 473862009859142395}
+  - {fileID: -435117706478802887}
+  - {fileID: -1921083809308776715}
+  - {fileID: 1899506039400150191}
+  - {fileID: -1289063034203152606}
+  - {fileID: -2091598618844979419}
+  - {fileID: 1090286274374400699}
+  - {fileID: -8198702064396466860}
+  - {fileID: 552804138449250412}
+  - {fileID: -8216109001518154207}
+  - {fileID: 906408066242950741}
+  - {fileID: -3108023629581508978}
+  - {fileID: 1798120710055952897}
+  - {fileID: 7517605743856372396}
+  - {fileID: -2418413496901846179}
+  - {fileID: 6026191904658244377}
+  - {fileID: 8212389642441562687}
+  - {fileID: -3809496694546412382}
   - {fileID: -1549384720352974309}
   - {fileID: 219236799874262857}
-  - {fileID: 6026191904658244377}
-  - {fileID: 39825011542562011}
-  - {fileID: -3809496694546412382}
-  - {fileID: 8212389642441562687}
-  - {fileID: -7509589973742156510}
-  - {fileID: 9029373935316962353}
-  - {fileID: 3514062147248705423}
   - {fileID: -5938247746770957081}
+  - {fileID: 39825011542562011}
   - {fileID: -7151556711063852883}
-  - {fileID: 1798120710055952897}
-  - {fileID: -2480331415680150072}
-  - {fileID: 1899506039400150191}
+  - {fileID: 9029373935316962353}
+  - {fileID: -8542971604843567817}
+  - {fileID: -6187803961940817801}
+  - {fileID: 3514062147248705423}
   - {fileID: -8912528288333761381}
   - {fileID: 7730431558160338807}
-  - {fileID: -435117706478802887}
   - {fileID: -7207693767465983604}
   - {fileID: 114021596907681196}
+  - {fileID: 4708585281749833538}
+  - {fileID: 5680852580795261754}
+  - {fileID: -1583017290428695494}
+  - {fileID: 4043645911573991167}
   - {fileID: -1073717303757453007}
-  - {fileID: -1921083809308776715}
+  - {fileID: -8742275686702897902}
+  - {fileID: 543706932176413643}
+  - {fileID: 2671707924758850474}
+  - {fileID: 7362104248294959986}
+  - {fileID: -2480331415680150072}
   customLoaderName: 
   m_renderMode: 1
   m_latencyOptimization: 0
@@ -1199,7 +1199,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3aced3429e5911458f4da2dac9d0f29, type: 3}
   m_Name: MetaHandTrackingAim Android
   m_EditorClassIdentifier: Unity.XR.Hands::UnityEngine.XR.Hands.OpenXR.MetaHandTrackingAim
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Meta Hand Tracking Aim
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.metahandtrackingaim
@@ -1221,7 +1221,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37086d3966675294eb1c38ad413c6817, type: 3}
   m_Name: DetachedMetaQuestTouchPlusControllerProfile Standalone
   m_EditorClassIdentifier: Oculus.VR::Meta.XR.DetachedMetaQuestTouchPlusControllerProfile
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Detached Meta Quest Touch Plus Controller Profile
   version: 0.0.1
   featureIdInternal: com.meta.openxr.feature.input.metaquestplus.detached
@@ -1420,7 +1420,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5019471fb2174e5c852ecd4047163007, type: 3}
   m_Name: HandInteractionProfile Standalone
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.Features.Interactions.HandInteractionProfile
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Hand Interaction Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.handinteraction
@@ -1490,7 +1490,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7365b139f7aec43b23d26b7a48b5a6, type: 3}
   m_Name: MetaQuestTouchPlusControllerProfile Android
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.Features.Interactions.MetaQuestTouchPlusControllerProfile
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Meta Quest Touch Plus Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.metaquestplus
@@ -1622,7 +1622,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01512f11fe5096443ad972feb69271f6, type: 3}
   m_Name: SpaceWarpFeature Android
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.Features.SpaceWarpFeature
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Application SpaceWarp
   version: 1.0.0
   featureIdInternal: com.unity.openxr.feature.spacewarp
@@ -1667,7 +1667,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e314dfef9af0904e80129bcc0a79361, type: 3}
   m_Name: HandTracking Android
   m_EditorClassIdentifier: Unity.XR.Hands::UnityEngine.XR.Hands.OpenXR.HandTracking
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Hand Tracking Subsystem
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.handtrackingsubsystem
@@ -1761,7 +1761,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feeef8d85de8db242bdda70cc7ff5acd, type: 3}
   m_Name: OculusTouchControllerProfile Standalone
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.Features.Interactions.OculusTouchControllerProfile
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Oculus Touch Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.oculustouch
@@ -1783,7 +1783,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a24be4b5ebfe5f4d8ed1de9b25cb7aa, type: 3}
   m_Name: HandCommonPosesInteraction Android
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.Features.Interactions.HandCommonPosesInteraction
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Hand Interaction Poses
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.handinteractionposes
@@ -1900,7 +1900,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37086d3966675294eb1c38ad413c6817, type: 3}
   m_Name: DetachedMetaQuestTouchPlusControllerProfile Android
   m_EditorClassIdentifier: Oculus.VR::Meta.XR.DetachedMetaQuestTouchPlusControllerProfile
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Detached Meta Quest Touch Plus Controller Profile
   version: 0.0.1
   featureIdInternal: com.meta.openxr.feature.input.metaquestplus.detached
@@ -2081,7 +2081,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7365b139f7aec43b23d26b7a48b5a6, type: 3}
   m_Name: MetaQuestTouchPlusControllerProfile Standalone
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.Features.Interactions.MetaQuestTouchPlusControllerProfile
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Meta Quest Touch Plus Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.metaquestplus
@@ -2322,7 +2322,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee92377a8e0c873458b71a94a80f3394, type: 3}
   m_Name: ApiLayersFeature Standalone
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.Features.ApiLayersFeature
-  m_enabled: 0
+  m_enabled: 1
   nameUi: API Layers
   version: 1.0.0
   featureIdInternal: com.unity.openxr.feature.apilayers
@@ -2333,7 +2333,16 @@ MonoBehaviour:
   required: 0
   customRuntimeLoaderName: 
   m_ApiLayers:
-    m_Collection: []
+    m_Collection:
+    - m_Json:
+        name: XR_APILAYER_METAX_operator
+        library_path: ./XrApiLayer_METAX_operator.dll
+        api_version: 1.1
+        implementation_version: 1
+        description: API layer that providing agentic interface for OpenXR
+      m_JsonFileName: XrApiLayer_METAX_operator.json
+      m_LibraryArchitecture: 1
+      m_IsEnabled: 1
 --- !u!114 &9029373935316962353
 MonoBehaviour:
   m_ObjectHideFlags: 0
