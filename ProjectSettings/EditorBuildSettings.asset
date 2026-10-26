@@ -5,6 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/00_Accueil.unity
+    guid: 705cccf7e66b40949f8d56bc8c0f1014
+  - enabled: 1
+    path: Assets/Scenes/02_PIECE_CYBERPUNK.unity
+    guid: b863ebf9f5f5b024aae932288a761071
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
